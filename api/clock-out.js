@@ -6,7 +6,7 @@ Airtable.configure({
 });
 
 const baseId = 'appxE0V5PM0pS51L7';
-const base = new Airtable({ apiKey: 'keyS9jvhm0mCtkS86' }).base(baseId);
+const base = new Airtable({ apiKey: 'keyS9jvhm0mCtkS86' }).base(appxE0V5PM0pS51L7);
 const employeesTable = base('Employees');
 const clockInsTable = base('Clock Ins');
 
